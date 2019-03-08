@@ -3,7 +3,9 @@
 	<head>
 		<title>JavaJam Coffee House Music</title>
 		<meta charset="utf-8"/>
-		<meta name="viewport" content="width: device-width"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<meta name="description" content="music page of JavaJam coffeehouse"/>
+		<meta name="keywords" content="coffee, music, coffeehouse"/>
 		<link rel="stylesheet" type="text/css" href="javajam.css"/>
 	</head>
 	<body>
@@ -13,10 +15,11 @@
 		</header>
 		<nav>
 			<ul>
-				<li><a href="javajamindex.html">Home</a></li>
+				<li><a href="index.html">Home</a></li>
 				<li><a href="javajammenu.html">Menu</a></li>
 				<li><a href="javajammusic.html">Music</a></li>
 				<li><a href="javajamjobs.html">Jobs</a></li>
+				<li><a href="javajamgear.html">Gear</a></li>
 			</ul>
 		</nav>
 		<main>
@@ -30,20 +33,30 @@
 		<div class="details">
 		<a href="melanie.jpg">
 			<img src="melaniethumb.jpg" alt="Melanie" class="floatleft"/>
-		</a>
+			</a>
 		Melanie Morris entertains with her melodic folk style.
+			<audio src="melanie.mp3" controls="controls"></audio>
+			<a href="melanie.mp3">Audio not working? Download here.</a>
 		</div>
 		<h4>February</h4>
 		<div class="details">
-		<a href="greg.jpg">
-			<img src="gregthumb.jpg" alt="Greg" class="floatleft"/>
-		</a>
-		Tahoe Greg is back from his tour. New songs. New stories.<br><br><br>
+			<a href="greg.jpg">
+				<img src="gregthumb.jpg" alt="Greg" class="floatleft"/>
+			</a>
+		Tahoe Greg is back from his tour. New songs. New stories.
+			<audio src="greg.mp3" controls="controls"></audio>
+			<a href="greg.mp3">Audio not working? Download here.</a>
 		</div>
 	</main>
 	<footer>
-		Copyright © 2018 JavaJam Coffee House<br>
+		Copyright &copy; 2019 JavaJam Coffee House<br>
 		jnicholson58@ivytech.edu
+		<div>
+			<script>
+				var date = document.lastModified;
+				document.write("This page was last modified on:" + date);
+			</script>
+		</div>
 	</footer>
 		</div>
 	</body>
